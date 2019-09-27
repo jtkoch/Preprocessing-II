@@ -1,5 +1,6 @@
 // Navigation Styles here
 header {
+
   .displayFlex(space-evenly, center);
   padding: 2%;
   width: 100%;
@@ -17,4 +18,20 @@ header {
     color: @shark;
     padding: 2.5vw;
   }
+}
+
+@media @mobile {
+  header {
+    margin-top: 60px;
+  }
+
+  .logo {
+    position: absolute;
+    margin-top: -8%;
+  }
+
+    a {
+      margin: 4vw;
+    }
+
 }
