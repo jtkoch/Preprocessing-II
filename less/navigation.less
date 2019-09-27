@@ -1,1 +1,37 @@
 // Navigation Styles here
+header {
+
+  .displayFlex(space-evenly, center);
+  padding: 2%;
+  width: 100%;
+  border-bottom: 2px dashed @navigation-border;
+
+  .logo {
+    font-size: 4rem;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  a {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: @shark;
+    padding: 2.5vw;
+  }
+}
+
+@media @mobile {
+  header {
+    margin-top: 60px;
+  }
+
+  .logo {
+    position: absolute;
+    margin-top: -8%;
+  }
+
+    a {
+      margin: 4vw;
+    }
+
+}
